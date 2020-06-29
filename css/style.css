@@ -108,10 +108,15 @@
   height: 100%;
 }
 
-.navbar-gif {
+.navbar-logo {
   display: none;
-  height: 20px;
-  background-color: black;
+  height: 50px;
+  padding: 15px;
+  width: 90px;
+  background-image: linear-gradient(to bottom right, #ce0196, #ff4422);
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-position: center;
 }
 
 .toggle-bar {
