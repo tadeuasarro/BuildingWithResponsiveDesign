@@ -2,5 +2,98 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER STYLING */
+.header {
+  border: red solid 1px;
+}
+
+.header-first,
+.header-second,
+.header-third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.header-first {
+  background-color: black;
+  height: 30px;
+}
+
+.header-first ul,
+.header-second ul {
+  margin: 0 15px;
+}
+
+.header-first li,
+.header-second li {
+  display: inline;
+  margin: 5px;
+}
+
+.header-first a,
+.header-second ul li a {
+  text-decoration: none;
+  color: #a1a1a1;
+}
+
+.header-second a {
+  text-transform: uppercase;
+}
+
+.header-second {
+  background-color: white;
+  height: 50px;
+}
+
+.second-menu {
+  border-left: solid 1px #ededed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 650px;
+  height: 100%;
+}
+
+.search-button {
+  color: #7e7e7e;
+  font-size: 18px;
+}
+
+.search-button i {
+  transform: scale(-1, 1);
+}
+
+.second-menu small {
+  text-transform: uppercase;
+}
+
+.countdown {
+  color: red;
+  text-decoration: none;
+}
+
+.countdown span {
+  font-size: 23px;
+  margin: 5px;
+}
+
+.register-button {
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: #00cccc;
+  border-radius: 5px;
+}
+
+.header-third {
+  background-color: #ffdd33;
+  font-size: 12px;
+  padding: 7px 20px;
+}
