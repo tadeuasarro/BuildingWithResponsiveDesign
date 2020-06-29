@@ -1,0 +1,27 @@
+/* 1135px */
+@media (max-width: 1135px)
+{
+  .second-menu {
+    display: none;
+  }
+}
+
+/* 770px */
+@media (max-width: 770px)
+{
+  .header-first {
+    display: none;
+  }
+
+  .alternative-second-menu {
+    display: flex;
+  }
+
+  .header-second ul {
+    display: none;
+  }
+
+  .navbar-gif {
+    display: flex;
+  }
+}
