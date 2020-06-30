@@ -5,6 +5,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+*, :after, :before {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  outline: none;
+  text-rendering: optimizeLegibility;
+}
+
 /* HEADER STYLING */
 .header-first,
 .header-second,
@@ -165,4 +172,30 @@
   background-size: cover;
   background-position: 50%;
   z-index: 1;
+}
+
+.Cover_gradient{
+  @media (min-width: 1024px)
+.cover-gradient {
+    background: transparent url(../img/cover-gradient.png) no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 4px;
+    left: 4px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 4;
+}
+}
+
+.cover-trigger {
+  transition: background-color .4s ease;
+  background: rgba(0,0,0,.25) url(../img/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
 }
