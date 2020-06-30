@@ -5,13 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-*, :after, :before {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  outline: none;
-  text-rendering: optimizeLegibility;
-}
-
 /* HEADER STYLING */
 .header-first,
 .header-second,
@@ -158,56 +151,37 @@
   padding: 7px 15px;
 }
 
-/*Main Styling*/
-.coverStory_Left {}
-
-.cover_Image {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/handshake-3962172_960_720-796x531.jpg");
-  bottom: 4px;
-  left: 4px;
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  background-color: #000;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  z-index: 1;
+/* MAIN STYLING */
+.cover {
+  display: grid;
+  height: 500px;
+  border: black solid 1px;
+  padding: 0 4px;
 }
 
-.cover-gradient {
-  @media (min-width: 1024px)
-    background: transparent url(../img/cover-gradient.png) no-repeat;
-    background-position: 0 0;
-    background-size: cover;
-    bottom: 4px;
-    left: 4px;
-    mix-blend-mode: lighten;
-    pointer-events: none;
-    position: absolute;
-    right: 4px;
-    top: 4px;
-    z-index: 4;
+.first-cover {
+  background-color: magenta;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  margin: 4px;
 }
 
-.cover-trigger {
-  transition: background-color .4s ease;
-  background: rgba(0,0,0,.25) url(../img/image-gradient.png) no-repeat;
-  background-size: 100% 100%;
-  display: block;
-  will-change: background-color;
-  z-index: 2;
+.second-cover {
+  background-color: green;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin: 4px;
 }
 
-.cover_Logo{
-    background: transparent url(../img/tnw.svg) no-repeat;
-    background-size: contain;
-    left: 24px;
-    max-width: 50%;
-    height: 100%;
-    max-height: 112px;
-    line-height: 1;
-    top: 24px;
-    pointer-events: none;
-    text-align: right;
+.third-cover {
+  background-color: orange;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  margin: 4px;
 }
