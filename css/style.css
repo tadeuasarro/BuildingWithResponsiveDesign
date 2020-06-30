@@ -388,3 +388,16 @@ h2{
   text-decoration: none;
   color: black;
 }
+
+.latestFundingLeftRight{
+
+}
+
+.latestFundingheaderUl{
+
+list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
