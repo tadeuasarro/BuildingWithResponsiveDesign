@@ -348,6 +348,21 @@
   color: #7e7e7e;
 }
 
+.latestFundingContainer{
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1176px;
+}
+
+.latestFundingContainer, #latestFundingHeader{
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  font-family: Helvetica, sans-serif;
+}
+
 .newsAnchor{
   text-decoration: none;
   color: black;
