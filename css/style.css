@@ -174,9 +174,8 @@
   z-index: 1;
 }
 
-.Cover_gradient{
-  @media (min-width: 1024px)
 .cover-gradient {
+  @media (min-width: 1024px)
     background: transparent url(../img/cover-gradient.png) no-repeat;
     background-position: 0 0;
     background-size: cover;
@@ -189,7 +188,6 @@
     top: 4px;
     z-index: 4;
 }
-}
 
 .cover-trigger {
   transition: background-color .4s ease;
@@ -198,4 +196,17 @@
   display: block;
   will-change: background-color;
   z-index: 2;
+}
+
+.cover_Logo{
+    background: transparent url(../img/tnw.svg) no-repeat;
+    background-size: contain;
+    left: 24px;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    top: 24px;
+    pointer-events: none;
+    text-align: right;
 }
