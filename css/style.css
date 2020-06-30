@@ -152,12 +152,12 @@
 }
 
 /* MAIN STYLING */
+
+/* COVER STYLING */
 .cover {
   display: grid;
   height: 450px;
-  border: black solid 1px;
   padding: 0 4px;
-  margin: 2px 0 30px;
 }
 
 .first-cover {
@@ -310,94 +310,52 @@
   top: 0;
 }
 
-.containerHeader{
-  width: 1135px;
+/* FIRST CONTAINER STYLING */
+.first-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  font-family: Helvetica, sans-serif;
-  font-weight: bolder;
-  color: #ff4421;
-
-}
-
-h2{
-  display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-.sectionTitle{
-  color: #ff4421;
-}
-
-.containerBelowCover{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
   justify-content: center;
 }
 
-.latestNews{
-  width: 1135px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(221px, 1fr));
-  grid-gap: 40px;
+.small-first-container {
+  width: 1300px;
+  padding: 0 80px;
 }
 
-.latestNewsBox, .newsThumb{
-  width: 100%;
-  height: 145px;
+.container-header a {
+  color: #ff4422;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
-.newsText a{
-  display: block;
-  font-family: Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.3em;
-  margin-bottom: 10px;
-}
-
-.newsText span{
-  color: #7e7e7e;
-}
-
-.latestFundingContainer{
+.latest-news-container {
   display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 1176px;
-}
-
-.latestFundingContainer, #latestFundingHeader{
-  height: 30px;
-  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 10px;
-  font-family: Helvetica, sans-serif;
 }
 
-.newsAnchor{
+.latest-news-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 23.5%;
+  margin: 20px 0;
+}
+
+.news-thumb {
+  width: 100%;
+  height: 60%;
+}
+
+.news-anchor {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 17px;
+  margin: 5px 0;
 }
 
-.latestFundingLeftRight{
-
+.news-text {
+  display: inline-block;
+  color: #aaa;
 }
-
-.latestFundingheaderUl{
-
-list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
