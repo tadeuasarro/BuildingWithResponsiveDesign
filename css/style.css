@@ -314,3 +314,43 @@
     font-weight: bold;
     color: #ff4421;
 }
+
+.containerBelowCover{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+
+.latestNews{
+  width: 1135px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(221px, 1fr));
+  grid-gap: 40px;
+}
+
+.latestNewsBox, .newsThumb{
+  width: 100%;
+  height: 145px;
+}
+
+.newsText a{
+  display: block;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+
+.newsText span{
+  color: #7e7e7e;
+}
+
+.newsAnchor{
+  text-decoration: none;
+  color: black;
+}
+
+
