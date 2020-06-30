@@ -154,34 +154,139 @@
 /* MAIN STYLING */
 .cover {
   display: grid;
-  height: 500px;
+  height: 450px;
   border: black solid 1px;
   padding: 0 4px;
 }
 
 .first-cover {
-  background-color: magenta;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 5;
   margin: 4px;
+  position: relative;
+}
+
+.first-cover-element {
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 90%;
+  width: 100%;
+}
+
+.first-cover-element a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.first-cover-element a h2 {
+  font-size: 50px;
+}
+
+.first-cover-element small {
+  display: block;
+  position: absolute;
+  bottom: -20px;
+  height: 20px;
+  color: white;
+}
+
+.first-cover-element small a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+
+.first-cover-element img {
+  width: 450px;
+}
+
+.first-cover-img {
+  background-image: url('../img/liberty.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.first-cover-gradient {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(170deg, #ea5b82, #ea5b82, transparent, black, black);
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
 }
 
 .second-cover {
-  background-color: green;
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
   margin: 4px;
+  position: relative;
+}
+
+.second-cover-element {
+  position: absolute;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  font-size: 22px;
+}
+
+.second-cover-element h3 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.second-cover-gradient {
+  background-image: linear-gradient(170deg, transparent, black);
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.second-cover-img {
+  background-image: url('../img/blur.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .third-cover {
-  background-color: orange;
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 5;
   margin: 4px;
+}
+
+.third-cover-element {
+  background-image: url('../img/running.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
