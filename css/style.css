@@ -170,6 +170,7 @@
   right: 4px;
   background-color: #000;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 50%;
   z-index: 1;
 }
