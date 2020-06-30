@@ -6,6 +6,26 @@
   }
 }
 
+/* 1020px */
+@media (max-width: 1020px)
+{
+  .first-cover-logo {
+    display: none;
+  }
+
+  .first-cover-link {
+    justify-content: flex-end;
+  }
+
+  .side-cover-title {
+    font-size: 18px;
+  }
+
+  .cover {
+    height: 300px;
+  }
+}
+
 /* 770px */
 @media (max-width: 770px)
 {
@@ -23,5 +43,34 @@
 
   .navbar-logo {
     display: flex;
+  }
+
+  .cover {
+    height: 450px;
+  }
+
+  .first-cover-title {
+    font-size: 18px;
+  }
+
+  .first-cover {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .second-cover {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .third-cover {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
   }
 }

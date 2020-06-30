@@ -172,36 +172,64 @@
 .first-cover-element {
   position: absolute;
   z-index: 1;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  height: 90%;
+  height: 100%;
   width: 100%;
 }
 
-.first-cover-element a {
+.first-cover-link,
+.third-cover-link {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
   width: 100%;
+  height: 95%;
   text-decoration: none;
   color: white;
+  padding: 20px;
 }
 
-.first-cover-element a h2 {
+.first-cover-link {
+  justify-content: space-between;
+}
+
+.third-cover-link {
+  justify-content: flex-end
+}
+
+.second-cover-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.cover-title {
+  text-transform: uppercase;
+}
+
+.first-cover-title {
   font-size: 50px;
 }
 
-.first-cover-element small {
+.first-cover-element small,
+.third-cover-element small {
   display: block;
   position: absolute;
-  bottom: -20px;
-  height: 20px;
+  bottom: 0;
   color: white;
+  padding-left: 20px;
+  padding-bottom: 2.5%;
 }
 
-.first-cover-element small a {
+.first-cover-element small a,
+.third-cover-element small a {
   color: white;
   text-decoration: none;
   display: inline;
@@ -222,16 +250,6 @@
   top: 0;
 }
 
-.first-cover-gradient {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(170deg, #ea5b82, #ea5b82, transparent, black, black);
-  opacity: 0.8;
-  position: absolute;
-  top: 0;
-}
-
 .second-cover {
   grid-column-start: 3;
   grid-column-end: 3;
@@ -243,25 +261,13 @@
 
 .second-cover-element {
   position: absolute;
-  padding: 20px;
   color: white;
   display: flex;
-  align-items: flex-end;
   height: 100%;
-  font-size: 22px;
 }
 
-.second-cover-element h3 {
-  display: flex;
-  align-items: flex-end;
-}
-
-.second-cover-gradient {
-  background-image: linear-gradient(170deg, transparent, black);
-  display: flex;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+.side-cover-title {
+  font-size: 30px;
 }
 
 .second-cover-img {
@@ -281,15 +287,27 @@
   grid-row-start: 3;
   grid-row-end: 5;
   margin: 4px;
+  position: relative;
 }
 
 .third-cover-element {
   background-image: url('../img/running.png');
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.third-cover-img {
+  background-image: url('../img/running.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   height: 100%;
   width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .containerHeader{
@@ -370,5 +388,3 @@ h2{
   text-decoration: none;
   color: black;
 }
-
-
