@@ -137,7 +137,7 @@
   border-left: solid 1px #ededed;
   display: flex;
   justify-content: center;
-  align-items:  center;
+  align-items: center;
   font-size: 20px;
 }
 
@@ -149,4 +149,20 @@
   background-color: #ffdd33;
   font-size: 12px;
   padding: 7px 15px;
+}
+
+/*Main Styling*/
+.coverStory_Left {}
+
+.cover_Image {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/handshake-3962172_960_720-796x531.jpg");
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 1;
 }
