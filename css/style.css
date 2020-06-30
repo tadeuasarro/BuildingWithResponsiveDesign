@@ -37,6 +37,14 @@
   color: #a1a1a1;
 }
 
+.header-first a:hover {
+  color: white;
+}
+
+.header-second ul li a:hover {
+  color: black;
+}
+
 .header-second a {
   text-transform: uppercase;
 }
@@ -47,12 +55,12 @@
 }
 
 .second-menu {
-  border-left: solid 1px #ededed;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 600px;
+  width: 630px;
   height: 100%;
+  padding-right: 5px;
 }
 
 .search-button {
@@ -99,6 +107,10 @@
   color: white;
   background-color: #00cccc;
   border-radius: 5px;
+}
+
+.register-button:hover {
+  background-color: #9900cc;
 }
 
 .alternative-second-menu {
