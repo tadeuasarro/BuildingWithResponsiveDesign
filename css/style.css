@@ -25,6 +25,13 @@ ul {
   font-size: 13px;
 }
 
+header{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+
 .header-first {
   background-color: black;
   height: 30px;
