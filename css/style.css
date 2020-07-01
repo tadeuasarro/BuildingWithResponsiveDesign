@@ -5,6 +5,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
 /* HEADER STYLING */
 .header-first,
 .header-second,
@@ -399,4 +409,14 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.footerLinks{
+  margin-top: 30px;
+}
+
+.footerLinks ul li {
+  display: inline;
+  color: rgb(121, 121, 121);
+  padding: 10px;
 }
