@@ -1,6 +1,5 @@
 /* 1135px */
-@media (max-width: 1135px)
-{
+@media (max-width: 1135px) {
   .second-menu {
     display: none;
   }
@@ -11,8 +10,7 @@
 }
 
 /* 1020px */
-@media (max-width: 1020px)
-{
+@media (max-width: 1020px) {
   .first-cover-logo {
     display: none;
   }
@@ -35,8 +33,7 @@
 }
 
 /* 770px */
-@media (max-width: 770px)
-{
+@media (max-width: 770px) {
   .header-first {
     display: none;
   }
