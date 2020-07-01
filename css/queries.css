@@ -90,4 +90,16 @@
     width: 80px;
     height: 80px;
   }
+
+  .separator {
+    display: none;
+  }
+
+  .interactive {
+    display: block;
+  }
+
+  .container-header {
+    flex-wrap: wrap;
+  }
 }

@@ -322,14 +322,16 @@ ul {
 
 /* LATEST NEWS STYLING */
 .first-container,
-.second-container {
+.second-container,
+.third-container {
   display: flex;
   justify-content: center;
   border: magenta solid 1px;
 }
 
 .small-first-container,
-.small-second-container {
+.small-second-container,
+.small-third-container {
   width: 1300px;
   padding: 0 80px;
   border: black solid 1px;
@@ -355,6 +357,7 @@ ul {
 .interactive {
   text-decoration: none;
   color: #ff4422;
+  margin-top: 10px;
 }
 
 .latest-news-container {
@@ -368,7 +371,6 @@ ul {
   flex-wrap: wrap;
   width: 23.5%;
   margin: 20px 0;
-  border: orange solid 1px;
 }
 
 .news-thumb {
@@ -396,6 +398,95 @@ ul {
 
 .news-text small {
   width: 100%;
+}
+
+.news-box-anchor {
+  display: flex;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: unset;
+}
+
+.news-box-img {
+  width: 60px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.news-box-title {
+  background: #ff4422;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.price-tag {
+  background-color: #ffebe8;
+  display: block;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+}
+
+.price-tag p {
+  font-weight: bold;
+}
+
+.price-tag small {
+  text-transform: uppercase;
+  color: #807674
+}
+
+.information-container {
+  height: 80px;
+  padding-left: 15px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #fffaf8;
+  border-bottom: #ffccc3 1px solid;
+}
+
+.description-anchors {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 80px;
+  background-color: #fffaf8;
+}
+
+.information-anchors {
+  color: unset;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+}
+
+.information-anchors small {
+  color: #555;
+  margin-left: 10px;
+}
+
+.description-first {
+  display: inline;
+  color: #555;
+}
+
+.description-second {
+  display: inline;
+  color: #aaa;
 }
 
 /* FOOTER STYLING */
