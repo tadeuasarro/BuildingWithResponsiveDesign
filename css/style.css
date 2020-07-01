@@ -500,12 +500,101 @@ header{
 
 .third-element-first {
   margin-top: 20px;
-  background-image: url('../img/bitcoin.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
   padding: 45% 15px 15px 15px;
   color: white;
+}
+
+.imagebg1 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg2 {
+  background-image: url('../img/spotify.jpg');
+
+}
+
+.imagebg3 {
+  background-image: url('../img/mac.jpg');
+
+}
+
+.imagebg4 {
+  background-image: url('../img/liberty.jpg');
+
+}
+
+.imagebg5 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg6 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg7 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg8 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg9 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg11 {
+  background-image: url('../img/amazon.jpg');
+
+}
+
+.imagebg21 {
+  background-image: url('../img/youtube.jpg');
+
+}
+
+.imagebg31 {
+  background-image: url('../img/xbox.jpg');
+
+}
+
+.imagebg41 {
+  background-image: url('../img/python.jpg');
+
+}
+
+.imagebg5 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg6 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg7 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg8 {
+  background-image: url('../img/bitcoin.jpg');
+
+}
+
+.imagebg9 {
+  background-image: url('../img/bitcoin.jpg');
+
 }
 
 .third-element-first a {
@@ -546,7 +635,6 @@ header{
   float: right;
   height: 100px;
   width: 150px;
-  background-image: url('../img/amazon.jpg');
   background-position: center;
   background-size: cover;
 }
