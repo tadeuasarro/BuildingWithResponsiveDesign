@@ -376,3 +376,27 @@
   display: flex;
   flex-direction: column;
 }
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcons i.fa {
+  margin: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: rgb(80, 80, 80);
+  color: #fff;
+  padding: 0.65em 0.8em;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
