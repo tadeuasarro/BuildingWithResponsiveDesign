@@ -15,7 +15,7 @@
   font-size: 13px;
 }
 
-header{
+header {
   position: sticky;
   top: 0;
   z-index: 999;
@@ -560,7 +560,7 @@ header{
   text-decoration: none;
 }
 
-.dealDiscountLabel{
+.dealDiscountLabel {
   background-image: url(../img/deals-ribbon.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -576,7 +576,7 @@ header{
   z-index: 10;
 }
 
-.dealDiscountLabel div{
+.dealDiscountLabel div {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   font-size: 14px;
@@ -590,15 +590,15 @@ header{
 }
 
 /* FOOTER STYLING */
-.footerSection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.icons-and-links{
+.icons-and-links {
   width: 100%;
   text-align: center;
   background-color: #131313;
@@ -607,10 +607,10 @@ header{
   flex-direction: column;
 }
 
-.socialIcons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socialIcons i.fa {
@@ -631,7 +631,7 @@ header{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.footerLinks{
+.footerLinks {
   margin-top: 30px;
 }
 
@@ -641,24 +641,23 @@ header{
   padding: 10px;
 }
 
-.footerCopyright{
+.footerCopyright {
   width: 100%;
-    text-align: center;
-    background-color: #000;
-    padding: 40px 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    color: #fff;
+  text-align: center;
+  background-color: #000;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fff;
 }
 
-.footerCopyright img{
+.footerCopyright img {
   transform: scale(0.2);
 }
 
-.footerCopyright b{
+.footerCopyright b {
   color: #f80303;
 }
-
