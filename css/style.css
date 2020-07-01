@@ -167,6 +167,12 @@ header {
   padding: 0 4px;
 }
 
+.sectionHeading-hidden{
+  visibility: hidden;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
 .first-cover {
   grid-column-start: 1;
   grid-column-end: 3;
