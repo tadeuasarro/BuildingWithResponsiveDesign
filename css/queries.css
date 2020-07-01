@@ -4,6 +4,10 @@
   .second-menu {
     display: none;
   }
+
+  .small-first-container {
+    padding: 0 20px;
+  }
 }
 
 /* 1020px */
@@ -23,6 +27,10 @@
 
   .cover {
     height: 300px;
+  }
+
+  .latest-news-box {
+    width: 30%;
   }
 }
 
@@ -72,5 +80,14 @@
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 1;
+  }
+
+  .latest-news-box {
+    width: 100%;
+  }
+
+  .news-thumb {
+    width: 80px;
+    height: 80px;
   }
 }
