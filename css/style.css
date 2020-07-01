@@ -5,16 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-  display: block;
-  list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
-
 /* HEADER STYLING */
 .header-first,
 .header-second,
@@ -333,7 +323,6 @@ header{
 .third-container {
   display: flex;
   justify-content: center;
-  border: magenta solid 1px;
 }
 
 .small-first-container,
@@ -341,7 +330,6 @@ header{
 .small-third-container {
   width: 1300px;
   padding: 0 80px;
-  border: black solid 1px;
 }
 
 .container-header {
@@ -496,54 +484,81 @@ header{
   color: #aaa;
 }
 
-.latestHighlights {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
-    width: 1176px;
-    margin-bottom: 50px;
+/* THIRD CONTAINER STYLING */
+.third-container-elements {
+  display: flex;
+  width: 32%;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
+.small-third-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-.hl-header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
-  height: 260px;
+.third-element-first {
+  margin-top: 20px;
+  background-image: url('../img/bitcoin.jpg');
   background-repeat: no-repeat;
-  color: #fff;
+  background-size: cover;
+  background-position: right;
+  padding: 45% 15px 15px 15px;
+  color: white;
+}
+
+.third-element-first a {
+  color: unset;
+  text-decoration: none;
+}
+
+.third-element-second {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #fff4f2;
+  position: relative
+}
+
+.third-short-text {
+  width: 100%;
+  clear: left;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 0 0 10px 10px;
+  justify-content: center;
+  color: #ff4422;
+  padding: 15px;
 }
 
-h4 {
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+.third-short-text small {
+  text-transform: uppercase;
 }
 
-h2 {
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-.nameAndDate a {
+.third-short-text a {
+  color: unset;
   text-decoration: none;
-  color: rgb(131, 131, 131);
+  font-weight: bold;
+  font-size: 14px;
 }
 
+.third-small-image {
+  float: right;
+  height: 100px;
+  width: 150px;
+  background-image: url('../img/amazon.jpg');
+  background-position: center;
+  background-size: cover;
+}
 
+.third-element-anchor {
+  border-bottom: #eee solid 1px;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 10px 15px;
+  color: grey;
+  text-decoration: none;
+}
 
 /* FOOTER STYLING */
 .footerSection{
