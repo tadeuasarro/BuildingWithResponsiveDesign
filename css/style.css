@@ -496,6 +496,55 @@ header{
   color: #aaa;
 }
 
+.latestHighlights {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 1176px;
+    margin-bottom: 50px;
+}
+
+
+.hl-header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8981967787114846) 0%, rgba(255, 255, 255, 0) 100%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/06/header-image-no-native-iPad-Calculator-app-368x276.png);
+  height: 260px;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 10px 10px;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.nameAndDate a {
+  text-decoration: none;
+  color: rgb(131, 131, 131);
+}
+
+
+
 /* FOOTER STYLING */
 .footerSection{
     display: flex;
