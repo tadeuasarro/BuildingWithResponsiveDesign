@@ -640,3 +640,25 @@ header{
   color: rgb(121, 121, 121);
   padding: 10px;
 }
+
+.footerCopyright{
+  width: 100%;
+    text-align: center;
+    background-color: #000;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.footerCopyright img{
+  transform: scale(0.2);
+}
+
+.footerCopyright b{
+  color: #f80303;
+}
+
