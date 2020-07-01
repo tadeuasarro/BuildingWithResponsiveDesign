@@ -359,3 +359,20 @@
   display: inline-block;
   color: #aaa;
 }
+
+.footerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icons-and-links{
+  width: 100%;
+  text-align: center;
+  background-color: #131313;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+}
