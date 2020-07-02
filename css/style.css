@@ -188,7 +188,7 @@ header {
 }
 
 .third-cover-link {
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 .second-cover-link {
@@ -219,13 +219,6 @@ header {
   color: white;
   padding-left: 20px;
   padding-bottom: 2.5%;
-}
-
-.first-cover-element small a,
-.third-cover-element small a {
-  color: white;
-  text-decoration: none;
-  display: inline;
 }
 
 .first-cover-element img {
@@ -408,7 +401,6 @@ header {
 
 .price-tag {
   background-color: #ffebe8;
-  display: block;
   width: 100%;
   height: 60px;
   display: flex;
@@ -423,7 +415,7 @@ header {
 
 .price-tag small {
   text-transform: uppercase;
-  color: #807674
+  color: #807674;
 }
 
 .information-container {
@@ -728,6 +720,13 @@ header {
 
 .footerLinks li{
   color: #fff;
+}
+
+.first-cover-element small a,
+.third-cover-element small a {
+  color: white;
+  text-decoration: none;
+  display: inline;
 }
 
 .header-first a,
