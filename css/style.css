@@ -136,11 +136,10 @@ header {
   background-repeat: no-repeat;
   background-color: #ccc;
   background-position: center;
-  z-index: 999;
 }
 
-.navbar-logo img{
-  z-index 9999;
+.navbar-logo {
+  background-color: #000;
 }
 
 .toggle-bar {
