@@ -98,15 +98,12 @@
 
   .news-thumb {
     margin-right: 5px;
+    width: 80px;
+    height: 80px;
   }
 
   .news-text {
     width: 76%;
-  }
-
-  .news-thumb {
-    width: 80px;
-    height: 80px;
   }
 
   .separator {
