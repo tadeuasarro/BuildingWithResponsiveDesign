@@ -55,6 +55,11 @@
 
   .navbar-logo {
     display: flex;
+    z-index: 999;
+  }
+
+  .navbar-logo img{
+    z-index: 9999;
   }
 
   .cover {
