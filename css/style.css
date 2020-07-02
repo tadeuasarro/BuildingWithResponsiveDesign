@@ -138,6 +138,10 @@ header {
   background-position: center;
 }
 
+.navbar-logo {
+  background-color: #000;
+}
+
 .toggle-bar {
   width: 60px;
   height: 100%;
