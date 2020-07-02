@@ -722,8 +722,7 @@ header {
   color: #fff;
 }
 
-.header-first a,
-.header-second ul li a {
+.header-first a {
   text-decoration: none;
   color: #a1a1a1;
 }
@@ -733,6 +732,11 @@ header {
   color: white;
   text-decoration: none;
   display: inline;
+}
+
+.header-second ul li a {
+  text-decoration: none;
+  color: #a1a1a1;
 }
 
 .header-first a:hover {
