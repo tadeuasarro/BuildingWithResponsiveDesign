@@ -650,7 +650,7 @@ header {
   background-image: url('../img/deals-ribbon.svg');
   background-repeat: no-repeat;
   background-size: 80px;
-  background-position: top 0 right 10px;
+  background-position: top 0 right 0;
   justify-content: center;
 }
 
