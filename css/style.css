@@ -329,6 +329,8 @@ header {
 .third-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .small-first-container,
@@ -502,6 +504,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .third-element-first {
