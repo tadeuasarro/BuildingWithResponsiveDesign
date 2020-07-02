@@ -38,22 +38,13 @@ header {
   margin: 5px;
 }
 
-.header-first a,
-.header-second ul li a {
-  text-decoration: none;
-  color: #a1a1a1;
-}
-
-.header-first a:hover {
-  color: white;
-}
-
-.header-second ul li a:hover {
-  color: black;
-}
-
 .header-second a {
   text-transform: uppercase;
+}
+
+.search-button a {
+  color: #7e7e7e;
+  font-size: 18px;
 }
 
 .header-second {
@@ -77,11 +68,6 @@ header {
   align-items: center;
   border-left: solid 1px #ededed;
   height: 100%;
-}
-
-.search-button a {
-  color: #7e7e7e;
-  font-size: 18px;
 }
 
 .search-button i {
@@ -112,12 +98,8 @@ header {
   font-weight: bold;
   text-decoration: none;
   color: white;
-  background-color: #00cccc;
+  background-color: #0cc;
   border-radius: 5px;
-}
-
-.register-button:hover {
-  background-color: #9900cc;
 }
 
 .alternative-second-menu {
@@ -132,7 +114,7 @@ header {
   height: 50px;
   padding: 15px;
   width: 90px;
-  background-image: linear-gradient(to bottom right, #ce0196, #ff4422);
+  background-image: linear-gradient(to bottom right, #ce0196, #f42);
   background-repeat: no-repeat;
   background-color: #ccc;
   background-position: center;
@@ -153,11 +135,11 @@ header {
 }
 
 .toggle-bar a {
-  color: #ff4422;
+  color: #f42;
 }
 
 .header-third {
-  background-color: #ffdd33;
+  background-color: #fd3;
   font-size: 12px;
   padding: 7px 15px;
 }
@@ -206,7 +188,7 @@ header {
 }
 
 .third-cover-link {
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 .second-cover-link {
@@ -239,13 +221,6 @@ header {
   padding-bottom: 2.5%;
 }
 
-.first-cover-element small a,
-.third-cover-element small a {
-  color: white;
-  text-decoration: none;
-  display: inline;
-}
-
 .first-cover-element img {
   width: 450px;
 }
@@ -268,13 +243,6 @@ header {
   grid-row-end: 3;
   margin: 4px;
   position: relative;
-}
-
-.second-cover-element {
-  position: absolute;
-  color: white;
-  display: flex;
-  height: 100%;
 }
 
 .side-cover-title {
@@ -345,19 +313,19 @@ header {
 }
 
 .container-header-anchor {
-  color: #ff4422;
+  color: #f42;
   display: inline-block;
   margin-top: 20px;
   text-decoration: none;
 }
 
 .container-header span {
-  color: #ff4422;
+  color: #f42;
 }
 
 .interactive {
   text-decoration: none;
-  color: #ff4422;
+  color: #f42;
   margin-top: 10px;
 }
 
@@ -425,7 +393,7 @@ header {
 }
 
 .news-box-title {
-  background: #ff4422;
+  background: #f42;
   color: white;
   font-weight: bold;
   width: 100%;
@@ -437,7 +405,6 @@ header {
 
 .price-tag {
   background-color: #ffebe8;
-  display: block;
   width: 100%;
   height: 60px;
   display: flex;
@@ -452,7 +419,7 @@ header {
 
 .price-tag small {
   text-transform: uppercase;
-  color: #807674
+  color: #807674;
 }
 
 .information-container {
@@ -604,7 +571,7 @@ header {
   height: 100px;
   display: flex;
   background-color: #fff4f2;
-  position: relative
+  position: relative;
 }
 
 .third-short-text {
@@ -613,7 +580,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #ff4422;
+  color: #f42;
   padding: 15px;
 }
 
@@ -723,6 +690,7 @@ header {
 
 .footerLinks {
   margin-top: 30px;
+  color: #fff;
 }
 
 .footerLink {
@@ -752,4 +720,44 @@ header {
 
 .footerCopyright b {
   color: #f80303;
+}
+
+.footerLinks li {
+  color: #fff;
+}
+
+.header-first a {
+  text-decoration: none;
+  color: #a1a1a1;
+}
+
+.first-cover-element small a,
+.third-cover-element small a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+
+.header-second ul li a {
+  text-decoration: none;
+  color: #a1a1a1;
+}
+
+.header-first a:hover {
+  color: white;
+}
+
+.header-second ul li a:hover {
+  color: black;
+}
+
+.second-cover-element {
+  position: absolute;
+  color: white;
+  display: flex;
+  height: 100%;
+}
+
+.register-button:hover {
+  background-color: #90c;
 }
