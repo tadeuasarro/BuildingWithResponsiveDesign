@@ -567,7 +567,7 @@ header {
   height: 100px;
   display: flex;
   background-color: #fff4f2;
-  position: relative
+  position: relative;
 }
 
 .third-short-text {
@@ -576,7 +576,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #ff4422;
+  color: #f42;
   padding: 15px;
 }
 
@@ -718,8 +718,14 @@ header {
   color: #f80303;
 }
 
-.footerLinks li{
+.footerLinks li {
   color: #fff;
+}
+
+.header-first a,
+.header-second ul li a {
+  text-decoration: none;
+  color: #a1a1a1;
 }
 
 .first-cover-element small a,
@@ -727,12 +733,6 @@ header {
   color: white;
   text-decoration: none;
   display: inline;
-}
-
-.header-first a,
-.header-second ul li a {
-  text-decoration: none;
-  color: #a1a1a1;
 }
 
 .header-first a:hover {
@@ -752,5 +752,4 @@ header {
 
 .register-button:hover {
   background-color: #90c;
-
 }
