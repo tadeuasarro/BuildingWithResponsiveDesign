@@ -138,8 +138,8 @@ header {
   background-position: center;
 }
 
-.navbar-logo {
-  background-color: #000;
+.navbar-logo img {
+  width: 82.5px;
 }
 
 .toggle-bar {
