@@ -4,7 +4,10 @@
     display: none;
   }
 
-  .small-first-container {
+  .small-first-container,
+  .small-second-container,
+  .small-third-container,
+  .small-fourth-container {
     padding: 0 20px;
   }
 }
@@ -31,8 +34,8 @@
     width: 30%;
   }
 
-  .third-container-elements{
-    width:100%;
+  .third-container-elements {
+    width: 49%;
   }
 }
 
@@ -102,5 +105,13 @@
 
   .container-header {
     flex-wrap: wrap;
+  }
+
+  .third-container-elements {
+    width: 100%;
+  }
+
+  .yellow-ribbon {
+    display: none;
   }
 }

@@ -167,12 +167,6 @@ header {
   padding: 0 4px;
 }
 
-.sectionHeading-hidden{
-  visibility: hidden;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-
 .first-cover {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -326,16 +320,16 @@ header {
 /* LATEST NEWS STYLING */
 .first-container,
 .second-container,
-.third-container {
+.third-container,
+.fourth-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 
 .small-first-container,
 .small-second-container,
-.small-third-container {
+.small-third-container,
+.small-fourth-container {
   width: 1300px;
   padding: 0 80px;
 }
@@ -374,6 +368,9 @@ header {
   flex-wrap: wrap;
   width: 23.5%;
   margin: 20px 0;
+  text-decoration: none;
+  color: unset;
+  position: relative;
 }
 
 .news-thumb {
@@ -504,14 +501,15 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: row;
 }
 
 .third-element-first {
+  width: 100%;
   margin-top: 20px;
   background-repeat: no-repeat;
+  background-color: #ccc;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   padding: 45% 15px 15px 15px;
   color: white;
 }
@@ -538,67 +536,54 @@ header {
 
 .imagebg6 {
   background-image: url('../img/hack.png');
-
 }
 
 .imagebg7 {
   background-image: url('../img/bitcoin.jpg');
-
 }
 
 .imagebg8 {
   background-image: url('../img/phones.jpg');
-
 }
 
 .imagebg9 {
   background-image: url('../img/apple.png');
-
 }
 
 .imagebg11 {
   background-image: url('../img/amazon.jpg');
-
 }
 
 .imagebg21 {
   background-image: url('../img/youtube.jpg');
-
 }
 
 .imagebg31 {
   background-image: url('../img/xbox.jpg');
-
 }
 
 .imagebg41 {
   background-image: url('../img/python.jpg');
-
 }
 
 .imagebg51 {
   background-image: url('../img/css.png');
-
 }
 
 .imagebg61 {
   background-image: url('../img/city.jpg');
-
 }
 
 .imagebg71 {
   background-image: url('../img/liberty.jpg');
-
 }
 
 .imagebg81 {
   background-image: url('../img/mart.jpg');
-
 }
 
 .imagebg91 {
   background-image: url('../img/wings.jpg');
-
 }
 
 .third-element-first a {
@@ -652,33 +637,36 @@ header {
   text-decoration: none;
 }
 
-.dealDiscountLabel {
-  background-image: url(../img/deals-ribbon.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: #000;
-  display: block;
-  height: 80px;
-  overflow: hidden;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 80px;
-  z-index: 10;
+/* FOURTH CONTAINER STYLING */
+.oldPrice {
+  text-decoration: line-through;
 }
 
-.dealDiscountLabel div {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  font-size: 14px;
-  font-weight: 700;
-  left: 8px;
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  top: 20px;
+.yellow-ribbon {
+  position: absolute;
+  display: flex;
+  height: 100%;
   width: 100%;
+  background-image: url('../img/deals-ribbon.svg');
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: top 0 right 10px;
+  justify-content: center;
+}
+
+.yellow-ribbon p {
+  transform: rotate(45deg);
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.NewPrice {
+  color: #555;
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 /* FOOTER STYLING */
@@ -687,16 +675,19 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 .icons-and-links {
   width: 100%;
   text-align: center;
   background-color: #131313;
-  padding: 70px 0;
+  padding: 35px 0;
   display: flex;
   flex-direction: column;
+}
+
+.icons-and-links a {
+  text-decoration: none;
 }
 
 .socialIcons {
@@ -705,41 +696,41 @@ header {
   align-items: center;
 }
 
-.socialIcons i.fa {
+.socialIcons i {
   margin: 10px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: rgb(80, 80, 80);
+  border: rgb(80, 80, 80) 3px solid;
   color: #fff;
-  padding: 0.65em 0.8em;
+  height: 45px;
+  width: 45px;
 }
 
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.socialIcons i:hover {
+  background-color: #131313;
 }
 
 .footerLinks {
   margin-top: 30px;
 }
 
-.footerLinks ul li {
+.footerLink {
   display: inline;
-  color: rgb(121, 121, 121);
+  color: #fff;
   padding: 10px;
+  font-weight: lighter;
+  font-size: 12px;
 }
 
 .footerCopyright {
   width: 100%;
   text-align: center;
   background-color: #000;
-  padding: 40px 0;
+  padding: 35px 0;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -748,6 +739,7 @@ header {
 
 .footerCopyright img {
   transform: scale(0.2);
+  width: 200px;
 }
 
 .footerCopyright b {
