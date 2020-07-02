@@ -252,31 +252,6 @@ header {
   position: relative;
 }
 
-.header-first a,
-.header-second ul li a {
-  text-decoration: none;
-  color: #a1a1a1;
-}
-
-.header-first a:hover {
-  color: white;
-}
-
-.header-second ul li a:hover {
-  color: black;
-}
-
-.second-cover-element {
-  position: absolute;
-  color: white;
-  display: flex;
-  height: 100%;
-}
-
-.register-button:hover {
-  background-color: #90c;
-}
-
 .side-cover-title {
   font-size: 30px;
 }
@@ -719,6 +694,7 @@ header {
 
 .footerLinks {
   margin-top: 30px;
+  color: #fff;
 }
 
 .footerLink {
@@ -748,4 +724,34 @@ header {
 
 .footerCopyright b {
   color: #f80303;
+}
+
+.footerLinks li{
+  color: #fff;
+}
+
+.header-first a,
+.header-second ul li a {
+  text-decoration: none;
+  color: #a1a1a1;
+}
+
+.header-first a:hover {
+  color: white;
+}
+
+.header-second ul li a:hover {
+  color: black;
+}
+
+.second-cover-element {
+  position: absolute;
+  color: white;
+  display: flex;
+  height: 100%;
+}
+
+.register-button:hover {
+  background-color: #90c;
+
 }
