@@ -93,6 +93,15 @@
 
   .latest-news-box {
     width: 100%;
+    flex-direction: row;
+  }
+
+  .news-thumb {
+    margin-right: 5px;
+  }
+
+  .news-text {
+    width: 76%;
   }
 
   .news-thumb {
