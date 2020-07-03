@@ -18,6 +18,10 @@
     display: none;
   }
 
+  .first-cover-gradient {
+    display: none;
+  }
+
   .first-cover-link {
     justify-content: flex-end;
   }
@@ -32,6 +36,7 @@
 
   .latest-news-box {
     width: 30%;
+    margin: 20px 1.6%;
   }
 
   .third-container-elements {
@@ -70,6 +75,11 @@
     font-size: 18px;
   }
 
+  .first-cover-link,
+  .third-cover-link {
+    height: 90%;
+  }
+
   .first-cover {
     grid-row-start: 1;
     grid-row-end: 1;
@@ -91,8 +101,15 @@
     grid-column-end: 1;
   }
 
+  .w-100 {
+    width: 100%;
+  }
+
   .latest-news-box {
     width: 100%;
+  }
+
+  .flex-row {
     flex-direction: row;
   }
 
