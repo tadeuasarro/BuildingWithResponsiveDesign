@@ -693,6 +693,11 @@ header {
   color: #fff;
 }
 
+.footerLinks a{
+  color: white;
+  text-decoration: none;
+}
+
 .footerLink {
   display: inline;
   color: #fff;
