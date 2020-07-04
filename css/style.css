@@ -120,7 +120,23 @@ header {
   background-position: center;
 }
 
+.navbar-logo-second-header {
+  display: none;
+  height: 50px;
+  padding: 15px;
+  width: 106px;
+  height: 80px;
+  background-image: linear-gradient(to bottom right, #ce0196, #f42);
+  background-repeat: no-repeat;
+  background-color: #ccc;
+  background-position: center;
+}
+
 .navbar-logo img {
+  width: 66px;
+}
+
+.navbar-logo-second-header img {
   width: 66px;
 }
 
