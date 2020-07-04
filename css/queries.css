@@ -85,12 +85,10 @@
   .footerCopyright span {
     width: 47%;
   }
-
 }
 
 /* 770px */
 @media (max-width: 770px) {
-
   .header {
     display: unset;
   }
@@ -168,8 +166,8 @@
 
   .news-thumb {
     margin-right: 5px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
   }
 
   .news-text {
