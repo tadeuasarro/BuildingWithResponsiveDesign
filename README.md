@@ -13,7 +13,7 @@ In this task we were required to create a responsive homepage clone of The Next 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/BuildingWithResponsiveDesign/3157860849ca8d60e0087933f1fe5cdf139f6b10/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/BuildingWithResponsiveDesign/790d7983bb1035fdba1455e18af4795a3848f89c/index.html)
 
 
 ## Authors
