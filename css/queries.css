@@ -195,6 +195,11 @@
   }
 
   .footerCopyright span {
-    width: 20%;
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  .footerCopyright{
+    flex-wrap: nowrap;
   }
 }

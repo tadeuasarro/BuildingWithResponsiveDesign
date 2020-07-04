@@ -757,8 +757,7 @@ header {
 }
 
 .footerCopyright img {
-  transform: scale(0.2);
-  width: 200px;
+  width: 50px;
 }
 
 .footerCopyright b {
